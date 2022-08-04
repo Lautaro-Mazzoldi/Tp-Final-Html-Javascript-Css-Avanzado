@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/imagenes/logo.svg" >
+    <title>Juguemos</title>
+</head>
+<body class="body">
+    <nav>
+        <a href="./index.html">
+            <svg  width="200" height="80">
+                <rect x="45" y="5" width="60" height="35" rx="5" id="mon1" fill="#3F6797"></rect>
+                <rect x="50" y="10" width="50" height="25" rx="5" id="mon2" fill="#B1D5E4"></rect>
+                <polygon points="55 45 ,95 45,115 62,30 62" fill="#3F6797" id="parte-arriba-svg"></polygon>
+                <polygon points="57 48 ,92 48,104 58,43 58" fill="#B1D5E4" id="parte-abajo-svg"></polygon>
+            </svg>
+            </a>
+        <ul class="menu">
+            <li class="cada-item-del-menu"><a class="link-de-cada-boton" href="./historia.html">HISTORIA</a></li>
+            <li class="cada-item-del-menu"><a class="link-de-cada-boton" href="./juguemos.html">JUGUEMOS</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1 class="texto-header-3"> JUGUEMOS UN POCO</h1> 
+        
+    </header>
+
+    <main>
+<h2>Armemos el rompecabezas y veamos que imagen es...</h2>
+
+        <section class="section-juego">
+            <div class="divs-soltar">
+                <div id="div1-soltar">
+                    <p>Arrastre y suelte la imágene aquí</p>
+                </div>
+                <div id="div2-soltar">
+                    <p>Arrastre y suelte la imágene aquí</p>
+                </div>
+                <div id="div3-soltar">
+                    <p>Arrastre y suelte la imágene aquí</p>
+                </div>
+            </div>
+            <div id="div-imagenes">
+                <img id="imagen1" src="./assets/imagenes/rompe2.png" />
+                <img id="imagen2" src="./assets/imagenes/Rompe1.png" />
+                <img id="imagen3" src="./assets/imagenes/Rompe3.png" />
+            </div>
+        </section>
+        <button onclick="reinicio()" class="botonesVideo reinicio" >Reiniciar</button>
+
+    </main>
+    <footer>
+        <div class="footer-svg">
+            <a href="./index.html">
+            <svg  width="200" height="80">
+                <rect x="45" y="5" width="60" height="35" rx="5" id="mon1" fill="#3F6797"></rect>
+                <rect x="50" y="10" width="50" height="25" rx="5" id="mon2" fill="#B1D5E4"></rect>
+                <polygon points="55 45 ,95 45,115 62,30 62" fill="#3F6797" id="parte-arriba-svg"></polygon>
+                <polygon points="57 48 ,92 48,104 58,43 58" fill="#B1D5E4" id="parte-abajo-svg"></polygon>
+            </svg>
+        </a>
+            <h3 class="tamaño-titulo-footer">PROGRAMACION<br>E<br>HISTORIA</h3>
+        </div>
+           <div class="creado-por">Sitio con fines educativos<br>Creado por M.Victoria Lopez<br>Re-creado por Lautaro Mazzoldi</div>
+    </footer>
+    <script src="./scriptJuguemos.js"></script>
+</body>
+</html>

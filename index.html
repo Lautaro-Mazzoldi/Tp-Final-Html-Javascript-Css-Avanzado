@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/imagenes/logo.svg" >
+    <title>Tp Final - Desarrollo web en HTML 5, CSS3 y Javascript (nivel avanzado)</title>
+</head>
+<body class="body">
+    <nav>
+        <a href="./index.html">
+            <svg  width="200" height="80">
+                <rect x="45" y="5" width="60" height="35" rx="5" id="mon1" fill="#3F6797"></rect>
+                <rect x="50" y="10" width="50" height="25" rx="5" id="mon2" fill="#B1D5E4"></rect>
+                <polygon points="55 45 ,95 45,115 62,30 62" fill="#3F6797" id="parte-arriba-svg"></polygon>
+                <polygon points="57 48 ,92 48,104 58,43 58" fill="#B1D5E4" id="parte-abajo-svg"></polygon>
+            </svg>
+            </a>
+        <ul class="menu">
+            <li class="cada-item-del-menu"><a class="link-de-cada-boton" href="./historia.html">HISTORIA</a></li>
+            <li class="cada-item-del-menu"><a class="link-de-cada-boton" href="./juguemos.html">JUGUEMOS</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1 class="texto-header-3">PROGRAMACION E HISTORIA</h1> 
+     </header>
+        <h2>CONTENIDO</h2>     
+    <main class="main-padre">
+           <div class="tarjeta">
+               <img class="imagen-tarjeta" src="./assets/imagenes/img1.jpg" alt="Imagen = Historia de la Programación">
+               <p class="texto-en-tarjeta">Conozcamos Un poco sobre la historia de la programacion </p>
+               <a class="boton-abajo-tarjeta"href="./historia.html" style="color:#F0F5E4">Ir a Historia</a>
+           </div>
+
+            <div class="tarjeta">
+                <img class="imagen-tarjeta" src="./assets/imagenes/img2.jpg" alt="Imagen = Juguemos un poco sobre la computacion">
+                <p class="texto-en-tarjeta">Juguemos un poco sobre la computacion</p>
+                <a class="boton-abajo-tarjeta"href="./juguemos.html" style="color:#F0F5E4">Ir a section-juego</a>
+            </div>
+ 
+   </main>
+
+   <footer>
+        <div class="footer-svg">
+            <a href="./index.html">
+            <svg  width="200" height="80">
+                <rect x="45" y="5" width="60" height="35" rx="5" id="mon1" fill="#3F6797"></rect>
+                <rect x="50" y="10" width="50" height="25" rx="5" id="mon2" fill="#B1D5E4"></rect>
+                <polygon points="55 45 ,95 45,115 62,30 62" fill="#3F6797" id="parte-arriba-svg"></polygon>
+                <polygon points="57 48 ,92 48,104 58,43 58" fill="#B1D5E4" id="parte-abajo-svg"></polygon>
+            </svg>
+        </a>
+            <h3 class="tamaño-titulo-footer">PROGRAMACION<br>E<br>HISTORIA</h3>
+        </div>
+           <div class="creado-por">Sitio con fines educativos<br>Creado por M.Victoria Lopez<br>Re-creado por Lautaro Mazzoldi</div>
+    </footer>
+  
+    <script src="./script.js"></script>
+</body>
+</html>
